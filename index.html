@@ -4044,7 +4044,7 @@
   const clientId = getClientId();
   if (clientId && CLIENT_MAP.hasOwnProperty(clientId)) {
       const script = document.createElement('script');
-      script.src = `clients/${CLIENT_MAP[clientId].folder}/${CLIENT_MAP[clientId].file}`;
+      script.src = `./clients/${CLIENT_MAP[clientId].folder}/${CLIENT_MAP[clientId].file}`;
       script.onload = function() {
           const main = document.createElement('script');
           main.src = './assets/main.js';
