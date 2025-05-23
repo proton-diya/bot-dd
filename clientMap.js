@@ -1,7 +1,7 @@
 // clientMap.js
 //  index.html?client=N
 var CLIENT_MAP = {
-  "1": { folder: "./1", file: "values.js" },
-  "2": { folder: "./2", file: "values.js" },
+  "1pp": { folder: "1", file: "values.js" },
+  "2pp": { folder: "2", file: "values.js" },
   
 };
