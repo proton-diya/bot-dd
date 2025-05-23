@@ -64,7 +64,8 @@
         '#imgPassport': photo_passport,
         '#imgRights':   photo_rights,
         '#imgStudent':  photo_students,
-        '#imgZagran':   photo_zagran
+        '#imgZagran':   photo_zagran,
+        '#singPng':     signPng
     };
 
     // Меняем src для каждой соответствующей картинки
