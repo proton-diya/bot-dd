@@ -50,5 +50,7 @@ var photo_passport = "clients/1/owner-image.png"; //эДок, паспорт,
 var photo_rights   = "clients/1/owner-image.png"; //права
 var photo_students = "clients/1/photo_passport"; //диплом, студ
 var photo_zagran   = "clients/1/photo_zagran.jpg"; //загран
+
+var signPng           = "clients/1/sign.png"; //подпись
 // Можно добавить еще, если надо
 
