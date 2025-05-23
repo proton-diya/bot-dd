@@ -4057,8 +4057,10 @@
           main.src = './assets/main.js';
           document.body.appendChild(main);
       };
-      document.body.appendChild(script);
-      console.error('Ошибка загрузки values.js:');
+       script.onerror = function() {
+        console.error('Ошибка загрузки values.js:', script.src);
+      };
+       document.body.appendChild(script);
   } else {
       window.location.href = "https://www.google.com";
   }
