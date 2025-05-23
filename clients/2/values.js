@@ -1,7 +1,7 @@
 // values.js
 
 // данные 
-var fio               = "1";
+var fio               = "привет пока новая";
 var fio_en            = "Ivanov Ivan Ivanovich";
 var birth             = "01.01.2000";
 var rnokpp            = "111111111
