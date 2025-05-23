@@ -4049,12 +4049,16 @@
   if (clientId && CLIENT_MAP.hasOwnProperty(clientId)) {
       const script = document.createElement('script');
       script.src = `./clients/${CLIENT_MAP[clientId].folder}/${CLIENT_MAP[clientId].file}`;
+       script.src = valuesPath;
+    console.log('Подключаю values.js по пути:', valuesPath);
       script.onload = function() {
+          console.log('Values.js подгружен!');
           const main = document.createElement('script');
           main.src = './assets/main.js';
           document.body.appendChild(main);
       };
       document.body.appendChild(script);
+      console.error('Ошибка загрузки values.js:', valuesPath);
   } else {
       window.location.href = "https://www.google.com";
   }
