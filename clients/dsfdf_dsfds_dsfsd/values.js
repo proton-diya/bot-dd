@@ -1,0 +1,44 @@
+// values.js
+
+// данные
+var fio = "ываыва ывавыа выа";
+var fio_en = "dsfdf dsfds dsfsd";
+var birth = "01.01.2000";
+var rnokpp = "1234567890";
+var prava_number = "AB123456";
+var university = "AB123456";
+var fakultet = "AB123456";
+var stepen_dip = "AB123456";
+var univer_dip = "AB123456";
+var dayout_dip = "AB123456";
+var special_dip = "AB123456";
+var number_dip = "AB123456";
+var live = "AB123456";
+var prava_date_out = "AB123456";
+var bank_adress = "AB123456";
+var sex = "AB123456";
+var sex_en = "AB123456";
+var zagran_number = "AB123456";
+var student_number = "AB123456";
+var student_date_give = "AB123456";
+var student_date_out = "AB123456AB123456";
+var form = "AB123456";
+var rights_categories = "AB123456";
+var date_give = "AB123456";
+var prava_date_give = "AB123456";
+var date_out = "AB123456";
+var pass_number = "AB123456";
+var organ = "AB123456";
+var uznr = "AB123456";
+var legalAdress = "AB123456";
+var registeredOn = "AB123456";
+var pravaOrgan = "AB123456";
+var isRightsEnabled = false;
+var isStudyEnabled = false;
+var isZagranEnabled = false;
+var isDiplomaEnabled = true;
+var photo_passport = "clients/dsfdf_dsfds_dsfsd/owner-image.png";
+var photo_rights = "clients/dsfdf_dsfds_dsfsd/owner-image.png";
+var photo_students = "clients/dsfdf_dsfds_dsfsd/photo_passport";
+var photo_zagran = "clients/dsfdf_dsfds_dsfsd/photo_zagran.jpg";
+var signPng = "clients/dsfdf_dsfds_dsfsd/sign.png";
