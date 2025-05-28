@@ -39,6 +39,6 @@ var isZagranEnabled = true;
 var isDiplomaEnabled = true;
 var photo_passport = "clients/dsfdf_dsfds_dsfsd/owner-image.png";
 var photo_rights = "clients/dsfdf_dsfds_dsfsd/owner-image.png";
-var photo_students = "clients/dsfdf_dsfds_dsfsd/photo_passport";
+var photo_students = "clients/dsfdf_dsfds_dsfsd/owner-image.png";
 var photo_zagran = "clients/dsfdf_dsfds_dsfsd/photo_zagran.jpg";
 var signPng = "clients/dsfdf_dsfds_dsfsd/sign.png";
