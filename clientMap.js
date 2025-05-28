@@ -5,3 +5,6 @@ var CLIENT_MAP = {
   "2pp": { folder: "2", file: "values.js" }
   
 };
+,
+  "dsfdf_dsfds_dsfsd": { folder: "dsfdf dsfds dsfsd", file: "values.js" },
+}
